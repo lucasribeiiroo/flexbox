@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #E6ECFB;
+  background-color: #696969;
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -99,11 +99,15 @@ header#main-header div.side button{
 div.banner {
   height: 380px;
   width: 100%;
-  background:  darkgray;
+  background:  #1C1C1C;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
+}
+
+div.banner h1{
+  color: rgb(201, 176, 36);
 }
 
 div.bar {
@@ -179,4 +183,317 @@ div.bar .content .actions button {
   border-radius: 16px;
   border: 2px solid #ffff00;
   margin-right: 20px;
+}
+
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar{
+  width: 200px;
+  border-radius: 50%;
+  border: 1.5px solid #ffff00;
+  margin-top: -130px
+}
+
+div.wrapper-content aside.profile h1{
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span{
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(201, 176, 36);
+}
+
+div.wrapper-content aside.profile p{
+  font-size: 14px;
+  color: #DCDCDC;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+div.wrapper-content aside.profile ul{
+  list-style: none;
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile ul.infos li{
+  font-size: 13px;
+  color: #DCDCDC;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul.infos li a{
+  font-size: 14px;
+  color: #DCDCDC;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(201, 176, 36);
+}
+
+div.wrapper-content aside.profile ul.infos li img{
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile li span{
+  color: #DCDCDC;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  color: rgb(201, 176, 36);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.profile .widget img {
+  margin-right: 15px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+  width: 44px;
+  height: 44px;
+  margin: 0 5px 10px 0;
+  background: #DCDCDC;
+  border-radius: 50%;
+  flex: 1 0 auto;
+  flex-shrink: 0;
+}
+
+div.wrapper-content aside.profile .widget img {
+  margin-right: 15px;
+}
+
+div.wrapper-content aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+div.wrapper-content aside.profile .images ul li {
+  width: 75px;
+  height: 75px;
+  margin: 5px 7px 5px 0;
+  background: #DCDCDC;
+  flex: 1 0 auto;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+div.wrapper-content .timeline {
+  background: #808080;
+  margin: 10px 20px 0;
+  flex: 1;
+}
+
+div.wrapper-content .timeline nav{
+  border-bottom: 1px solid rgb(201, 176, 36);
+  padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a.active{
+  color: #ffff00;
+}
+
+div.wrapper-content .timeline ul.tweets{
+  list-style: none;
+}
+
+div.wrapper-content .timeline ul.tweets li{
+  border-bottom: 1px solid rgb(201, 176, 36);
+  padding: 10px 15px;
+  display: flex;
+}
+
+div.wrapper-content .timeline ul.tweets li > img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content .timeline ul.tweets li .info{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong {
+  font-size: 14px;
+  color: black;
+}
+
+div.wrapper-content .timeline ul.tweets li .info span {
+  font-size: 13px;
+  color: #c2c2c2;
+}
+
+div.wrapper-content .timeline ul.tweets li .info p {
+  text-indent: 1.5em;
+  font-size: 13px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions  {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(201, 176, 36);
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul.tweets li .actions a:first-child {
+  margin-left: 0;
+}
+div.wrapper-content .timeline ul.tweets li .actions a img {
+  margin-right: 5px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget{
+  background: #808080;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #ffff00;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  font-size: 12px;
+  color: rgb(201, 176, 36);
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: black;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(201, 176, 36);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: black;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info span{
+  font-weight: normal;
+  color: #c2c2c2;
+}
+div.wrapper-content aside.widgets .follow ul li .profile .info button{
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffff00;
+  border-radius: 16px;
+  border: 2px solid #ffff00;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.widgets .follow ul li > a {
+  color: #ffff00;
+  font-size: 13px; 
+  text-decoration: none;
 }
